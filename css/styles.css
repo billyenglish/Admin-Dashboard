@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html, body {
+    scroll-behavior: smooth;
+}
+
+/* Body Section */
+
+body {
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    min-width: 100%;
+}
+
+/* Grid Container */
+
+.grid-container {
+    min-width: inherit;
+}
+
+/* Header Section */
+
+header {
+    border: 1px solid #000;
+}
+
+/* Navigation Menu */
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left-nav {
+    display: flex;
+    align-items: center;
+}
+
+.right-nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.nav-menu i {
+    font-size: 1.5rem;
+}
+
+.logo {
+    font-weight: 400;
+}
+
+.profile {
+    font-size: 1rem;
+    font-weight: 425;
+}
+
+/* Main Section */
+
+main {
+    border: 1px solid #000;
+}
+
+/* Aside Section */
+
+aside {
+    border: 1px solid #000;
+}
+
+/* Footer Section */
+
+footer {
+    border: 1px solid #000;
+}
